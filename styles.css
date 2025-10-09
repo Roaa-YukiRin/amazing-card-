@@ -1,0 +1,63 @@
+
+/* الخلفية صورة وتالمعلومات بالوسط*/
+body{
+    background-image:url(images/rabbite\ bage.jpg) ; 
+    /*رابط الصورة*/
+    background-size: cover;
+    /*تغطية كاملة للخلفية*/
+    background-attachment: fixed;
+    /*تثبيت الصورة*/
+
+    display: flex;
+    /* ترتيب العناصر الداخلية*/
+    justify-content: center; 
+    /*توسيط أفقي*/
+    align-content: center;
+    /* توسيط عامودي*/
+    padding: 20px;
+    /*مسافة المعلومات عن  الحواف*/
+}
+
+.card{
+    width: 450px; 
+    /*عرض البطاقة*/ 
+    background-color: blanchedalmond;
+    /*لون الخلفية*/
+    padding: 40px;
+    /*مسافة المعلومات عن  الحواف*/
+    border-radius: 100px;
+    /*نعديل حواف المربع*/
+    box-shadow: 20px 15px 15px rgb(137, 84, 145);
+    /*إضافة ظل للبطاقى
+    20= إزاحة الظل أفقيا
+    15= إزاحة الظل عموديا
+    15= سمك الظل
+     rgba(...): لون الظل */
+
+     display: flex;
+    /* ترتيب العناصر الداخلية*/
+    flex-direction: column;
+    /*يحدد اتجاه ترتيب العناصر ورتبها عاوديا*/
+    align-items: center;
+        /* توسيط عامودي للعناصر*/
+}
+
+.imge{
+    border-radius: 190px;
+    /*نعديل حواف المربع*/
+}
+
+.click{
+    border-radius: 30px;
+    /* الشكل الدائري */
+    color: rgb(193, 89, 166);
+    /*لون النص*/
+    background-color: rgb(237, 193, 195);
+    /*لون الشكل*/
+    border: 3px solid #800080;  
+    /*لون الحواف*/
+
+    cursor:pointer ;
+    /* تحويل شكل المؤشر إلى يد */
+    font-weight: bold;
+}
